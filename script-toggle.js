@@ -12,7 +12,7 @@ theme.addEventListener("click", function() {
   body.classList.toggle("light");
 });
 theme.onclick = function(){
-  if(body.classList.contains("dark")){
+  if(body.classList.contains("light")){
     theme.src="dark-mode.png";
   }else{
     theme.src="light-mode.png";
